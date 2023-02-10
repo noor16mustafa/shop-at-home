@@ -4,12 +4,12 @@ import '../Header/Header.css'
 const Header = () => {
     return (
         <nav className='header'>
-            <h2 className='text-lg'>Shop-at-Home</h2>
+            <h2 className='text-xl'>Shop-At-Home</h2>
             <div>
                 <a href="/">Shop</a>
-                <a href="/orders">Orders</a>
+                <a href="/">Orders</a>
 
-                <a href="/about">About</a>
+                <a href="/">About</a>
             </div>
         </nav>
     );

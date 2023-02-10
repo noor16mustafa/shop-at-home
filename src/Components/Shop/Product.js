@@ -4,7 +4,7 @@ const Product = (props) => {
     const { category, description, price, title, thumbnail } = props.product;
 
     return (
-        <div className="hero mx-auto" style={{ width: "700px", height: "300px" }}>
+        <div className="hero mx-auto  border border-solid my-3 rounded-lg" style={{ width: "700px", height: "300px" }}>
             <div className="hero-content flex-col lg:flex-row">
                 <img src={thumbnail} className="rounded-lg shadow-2xl" style={{ width: "200px", height: "200px" }} alt='' />
                 <div style={{ width: "500px" }}>
